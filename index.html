@@ -6,7 +6,9 @@
 </head>
 <body>
 
-<div class="sidebar">
+<div class="hamburger" onclick="toggleMenu()">☰</div>
+
+<div id="sidebar" class="sidebar">
     <a href="index.html">Home</a>
     <a href="photos.html">Photos</a>
     <a href="videos.html">Videos</a>
@@ -14,56 +16,53 @@
 
 <div class="content">
 
-    <!-- Banner with overlay text -->
     <div class="hero">
 
         <div class="hero-banner">
             <img src="images/home_banner.jpg" 
-                 alt="Rainwater harvesting tank system">
-            <div class="banner-text"><h2><text-align:center>Rainwater Harvesting</text-align:center></h2></div>
+                 alt="Rainwater harvesting storage tank beside greenery">
+            <div class="banner-text">Rainwater Harvesting</div>
         </div>
 
         <h1>Harvest the Sky: Sustainable Rainwater Solutions for a Greener Tomorrow</h1>
-        <p style="font-size:18px; margin-top:10px;">Making every drop count.</p>
+        <p style="font-size:18px;">Making every drop count.</p>
 
         <img src="images/harvesting_flow.jpg"
-             alt="Illustration showing uses of harvested rainwater"
-             style="width:100%; max-width:900px; border-radius:12px;">
+             alt="Illustration showing ways harvested rainwater is used at home and garden"
+             style="max-width:900px; border-radius:12px;">
     </div>
 
     <div class="section-box">
         <h2>Welcome to Your Rainwater Harvesting Guide</h2>
         <p>
-            Welcome to <strong>Harvest the sky</strong>, your dedicated resource for all things rainwater harvesting!
-            In a world dealing with water scarcity and environmental challenges, capturing rainwater is one of the simplest,
-            smartest, and most sustainable choices you can make for your home, garden, and future.
+            Welcome to <strong>Harvest The Sky</strong>, your dedicated resource for all things rainwater harvesting!
+            Capturing rainwater is one of the simplest, smartest, and most sustainable choices for your home and future.
         </p>
     </div>
 
     <div class="section-box">
         <h2>Why Rainwater Harvesting?</h2>
         <ul>
-            <li><strong>Reduce Water Bills:</strong> Save on municipal water use.</li>
-            <li><strong>Sustainable Living:</strong> Lower your environmental impact.</li>
-            <li><strong>Healthier Gardens:</strong> Natural, chemical-free water improves plant growth.</li>
-            <li><strong>Emergency Backup:</strong> Independent water source during droughts or shortages.</li>
-            <li><strong>Lower Flooding Risk:</strong> Reduce stormwater runoff and soil erosion.</li>
+            <li><strong>Reduce Water Bills:</strong> Save money by using stored rainwater.</li>
+            <li><strong>Sustainable Living:</strong> Lower environmental impact.</li>
+            <li><strong>Healthier Plants:</strong> Chemical-free natural water.</li>
+            <li><strong>Emergency Supply:</strong> Water even in drought.</li>
+            <li><strong>Lower Flooding:</strong> Reduce stormwater overflow.</li>
         </ul>
     </div>
 
     <div class="section-box">
         <h2>How It Works</h2>
         <ol>
-            <li><strong>Collection:</strong> Rainwater flows from the roof into gutters.</li>
-            <li><strong>Filtration:</strong> Leaves and debris are removed.</li>
-            <li><strong>Storage:</strong> Clean water is stored in a tank or cistern.</li>
-            <li><strong>Distribution:</strong> Used for gardening, toilets, washing, or purified for drinking.</li>
+            <li><strong>Collection:</strong> Rain falls on the roof and enters gutters.</li>
+            <li><strong>Filtration:</strong> Debris is removed.</li>
+            <li><strong>Storage:</strong> Water is stored in a clean tank.</li>
+            <li><strong>Distribution:</strong> Used for plants, cleaning, toilets, etc.</li>
         </ol>
     </div>
 
 </div>
 
+<script src="script.js"></script>
 </body>
 </html>
-
-
